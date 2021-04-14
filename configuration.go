@@ -105,7 +105,7 @@ func NewConfiguration() *Configuration {
 		Debug:            false,
 		Servers:          ServerConfigurations{
 			{
-				URL: "http://myazure.url.com/api/v1",
+				URL: "http://localhost/api/v1",
 				Description: "server url from my azure subscription",
 			},
 		},
